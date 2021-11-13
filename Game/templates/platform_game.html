@@ -4,8 +4,6 @@
 {%block game%}
 
 {% if platform_game%}
-
-<div class="container">
     <div class="row">
         {%for game in platform_game%}
         <div class="col-lg-4">
@@ -29,7 +27,6 @@
         </div>
         {%endfor%}
     </div>
-</div>
 {%else%}
 {%endif%}
 {%endblock game%}

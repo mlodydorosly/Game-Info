@@ -67,8 +67,8 @@
             </form>
         </div>
     </nav>
-
     <div class="container">
+    {%block game%}
         <div class="row">
             {%for game in games%}
             <div class="col-lg-4">
@@ -92,10 +92,9 @@
             </div>
             {%endfor%}
         </div>
+        {%endblock game%}
     </div>
-    {%block game%}
 
-    {%endblock game%}
 
 </body>
 
